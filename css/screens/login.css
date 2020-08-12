@@ -1,0 +1,58 @@
+.welcome-header {
+    margin: 70px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-header__title {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.welcome-header__text {
+    color: rgba(50, 73, 92, 0.7);
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 35px;
+}
+#login-form input {
+    padding: 16px 0px;
+    border: none;
+    font-size: 18px;
+}
+#login-form input:not([type="submit"]) {
+    border-bottom: rgba(50, 73, 92, 0.15) 1.3px solid;
+    transition: border-color 0.3s ease-in-out;
+}
+#login-form input[type="password"] {
+    margin-bottom: 20px;
+}
+#login-form input::placeholder {
+    color: rgba(50, 73, 92, 0.4);
+}
+#login-form input:focus {
+    border-color: var(--yellow);
+}
+#login-form input[type="submit"] {
+    background-color: var(--yellow);
+    font-family: "Baloo Tamma 2", cursive;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    margin: 6px 0px;
+}
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(50, 73, 92, 0.7);
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px;
+}
