@@ -1,13 +1,16 @@
-.status-bar__column > span {
-    margin-top: 2.1px;
-}
+@import "D:\hibokchi\Github\cocoa-clone-2020\css\reset.css";
 .status-bar {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
     display: flex;
+    text-align: justify;
     justify-content: center;
     align-items: center;
-    padding: 1px 3px;
 }
 .status-bar__column {
+    margin: 5px;
     width: 33%;
 }
 .status-bar__column:first-child span {
@@ -26,4 +29,7 @@
 }
 .status-bar__column:last-child i {
     margin-left: 6px;
+}
+.status-bar__column > span {
+    margin-top: 5px;
 }

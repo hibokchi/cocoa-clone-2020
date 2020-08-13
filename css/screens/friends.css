@@ -1,0 +1,8 @@
+#friends-display-info {
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+#friends-display-info i {
+    color: rgba(50, 73, 92, 0.2);
+}

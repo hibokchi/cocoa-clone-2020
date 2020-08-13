@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600&display=swap");
-@import "variables.css";
 @import "reset.css";
+@import "variables.css";
 
 /*components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /*screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+    background-color: white;
     font-family: "Baloo Tamma 2", cursive;
-    margin-top: 4px;
+    height: 1000vh;
 }

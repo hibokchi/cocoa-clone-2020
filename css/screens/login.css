@@ -1,16 +1,17 @@
 .welcome-header {
-    margin: 70px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .welcome-header__title {
-    margin-bottom: 30px;
+    margin-top: 90px;
+    margin-bottom: 40px;
     font-size: 25px;
     font-weight: 500;
 }
 .welcome-header__text {
+    margin-bottom: 50px;
     color: rgba(50, 73, 92, 0.7);
 }
 #login-form {

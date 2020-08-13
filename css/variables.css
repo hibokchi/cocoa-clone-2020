@@ -1,3 +1,5 @@
 :root {
-    --yellow: rgb(250, 225, 0);
+    --yellow: rgba(250, 225, 0);
+    --gray: rgba(249, 249, 250);
+    --blue: rgba(50, 73, 92);
 }
