@@ -153,3 +153,12 @@ i {
     font-size: 15px;
     color: rgba(50, 73, 92, 0.2);
 }
+.t-gap {
+    margin-top: 5px;
+}
+.b-gap {
+    margin-bottom: 5px;
+}
+.bt-gap {
+    margin: 2.5px 0px;
+}
