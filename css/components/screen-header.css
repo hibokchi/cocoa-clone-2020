@@ -1,15 +1,18 @@
 .screen-header {
-    padding: 50px 25px 20px 25px;
+    padding: 50px var(--horizontal-gap) 12px var(--horizontal-gap);
     display: flex;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-bottom: 10px;
 }
 .screen-header__title {
     font-size: 30px;
     font-weight: 600;
+    cursor: pointer;
 }
 .screen-header__icons span {
     padding-top: 20px;
-    margin-left: 25px;
+    margin-left: var(--horizontal-gap);
 }

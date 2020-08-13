@@ -1,8 +1,21 @@
 #friends-display-info {
     text-align: center;
     display: block;
+    font-size: 15px;
     background-color: white;
+    margin: -5px 0px 25px 0px;
 }
 #friends-display-info i {
     color: rgba(50, 73, 92, 0.2);
+}
+.friends-screen {
+    margin: 0px var(--horizontal-gap);
+}
+.channel-display-info {
+    border-top: var(--main-border);
+    padding-top: 20px;
+    margin: var(--horizontal-gap) 0px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
