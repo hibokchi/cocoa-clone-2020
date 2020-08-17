@@ -23,6 +23,7 @@
 body {
     background-color: white;
     font-family: "Baloo Tamma 2", cursive;
+    height: 500vh;
 }
 .main-screen {
     margin: 0px var(--horizontal-gap);
