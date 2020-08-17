@@ -1,0 +1,21 @@
+.user-component__right__more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(50, 73, 92, 0.2);
+    margin: 0px 5px;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.user-component__right__more__text {
+    margin-top: 2.5px;
+}
+.user-component__right__more img {
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+.align-left-setup {
+    margin: 20px 20px;
+}

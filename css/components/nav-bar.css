@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600&display=swap");
 .absolute-top {
+    background-color: white;
     position: fixed;
     top: 0px;
     width: 100%;
     box-sizing: border-box;
+    z-index: 100;
 }
 .absolute-top-background {
     background-color: white;

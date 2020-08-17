@@ -6,6 +6,8 @@
     align-items: center;
     text-align: center;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
 }
 .screen-header__title {
     font-size: 30px;

@@ -1,0 +1,25 @@
+.alt-screen {
+    padding: 50px var(--horizontal-gap) 12px var(--horizontal-gap);
+    background-color: white;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.alt-header__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alt-header__icons div:last-child > i {
+    margin-left: 20px;
+}
+.alt-header__text {
+    position: absolute;
+    z-index: inherit;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 18px;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

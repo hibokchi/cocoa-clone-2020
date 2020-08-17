@@ -1,0 +1,60 @@
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotatez(720deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    will-change: auto;
+    animation: rotateCog 5s ease-in-out;
+}
+
+@keyframes bounceBadge {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-3px) rotatey(360deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.nav__btn .badge {
+    animation: bounceBadge 2.5s ease-in-out infinite;
+}
+
+@keyframes batteryfade {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+.status-bar .fa-bolt {
+    animation: batteryfade 3s ease-in-out infinite;
+}
+
+@keyframes loadPage {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+        visibility: hidden;
+    }
+}
+
+#load-form {
+    animation: loadPage 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+}
