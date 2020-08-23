@@ -3,30 +3,13 @@
     flex-direction: column;
     align-items: center;
 }
-.music-suggestion-bar {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    box-sizing: border-box;
-    padding: 0px 30px 10px 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
-}
-.music-suggestion-bar div {
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.459);
-    font-weight: 700;
-}
-.music-suggestion-bar div:nth-child(2) {
-    margin-right: auto;
-    margin-left: 25px;
-}
 .artist-profile {
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 30px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .artist-profile img {
     width: 90px;
@@ -53,11 +36,12 @@
     margin: 20px 0px;
 }
 .artist-profile__btn div {
+    cursor: pointer;
     display: flex;
     align-items: center;
     color: white;
-    background-color: #e0ece4;
-    border: 1px solid #e0ece4;
+    background-color: var(--green);
+    border: 1px solid var(--green);
     padding: 8px 20px 5px 20px;
     border-radius: 35px;
 }
@@ -110,6 +94,6 @@
     height: 400px;
     width: 400px;
     overflow-x: auto;
-    border: 1px solid #e0ece4;
+    border: 1px solid var(--green);
     border-radius: 10px;
 }

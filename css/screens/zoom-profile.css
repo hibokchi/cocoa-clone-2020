@@ -1,0 +1,71 @@
+.zoom-main-screen {
+    background-color: #e9c46a;
+}
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+.user-profile img {
+    width: 250px;
+    height: 250px;
+    object-position: 50% 50%;
+    object-fit: contain;
+    border-radius: 10px;
+    margin: 120px 0px 25px 0px;
+}
+.user-profile h1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.user-profile h2 {
+    font-size: 16px;
+    color: white;
+}
+.user-profile__btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.user-profile__btn div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 8px 20px 5px 20px;
+    border-radius: 35px;
+}
+.user-profile__btn i {
+    color: white;
+    margin-bottom: 2.5px;
+    margin-left: 8px;
+}
+.user-profile__btn span {
+    color: white;
+}
+
+.user-profile__icon {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    filter: invert(100%);
+}
+
+.user-profile__icon__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.user-profile__icon__column span {
+    margin: 10px;
+    font-weight: 500;
+}

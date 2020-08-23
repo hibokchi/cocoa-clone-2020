@@ -76,7 +76,7 @@
     animation-delay: 0.2s;
 }
 
-@keyframes zoomSearch {
+@keyframes zoomMusic {
     0% {
         transform: scale(1, 1);
     }
@@ -88,9 +88,9 @@
     }
 }
 
-.screen-header__icons .fa-search:hover {
-    animation: zoomSearch 1.5s ease-in-out infinite;
-    animation-delay: 0.2s;
+.screen-header__icons .fa-music:hover {
+    will-change: transform;
+    animation: zoomMusic 1.2s ease-in-out infinite;
 }
 
 @keyframes blinkMediaQ {
@@ -107,4 +107,14 @@
 
 #no-mobile {
     animation: blinkMediaQ 5s ease-in-out infinite;
+}
+
+.user-component__right__music:hover {
+    background-color: #006d77;
+}
+
+.artist-profile__btn > div:hover,
+.music-list__row:hover,
+.user-profile__btn__background:hover {
+    background-color: #006d77;
 }
