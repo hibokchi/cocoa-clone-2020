@@ -60,7 +60,6 @@
 
 .user-component__right__music {
     padding: 5px 20px 3px 20px;
-    border: 1px solid var(--green);
     background-color: var(--green);
     border-radius: 15px;
 }

@@ -13,7 +13,7 @@
     background-color: var(--green);
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 640px) and (orientation: portrait) {
     #no-mobile {
         display: none;
     }

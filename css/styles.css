@@ -21,6 +21,7 @@
 @import "screens/settings.css";
 @import "screens/chatting.css";
 @import "screens/music.css";
+@import "screens/zoom-profile.css";
 
 body {
     background-color: white;
