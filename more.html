@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>More - CocoaTalk</title>
     </head>
-    <body>
+    <body class="main-screen__100vh">
         <div class="absolute-top-background">
             <div class="absolute-top">
                 <div class="status-bar">
@@ -32,16 +32,22 @@
                     </a>
                     <div class="screen-header__icons">
                         <span><i class="fas fa-search fa-lg"></i></span>
-                        <span><i class="fas fa-music fa-lg"></i></span>
+                        <span><a href="music.html">
+                            <i class="fas fa-music fa-lg"></i></a></span>
                         <span>
                             <a href="settings.html">
                                 <i class="fas fa-cog fa-lg"></i> </a
                         ></span>
+                        <span>
+                            <a href="index.html">
+                                <i class="fas fa-sign-out-alt fa-lg"></i>
+                            </a>
+                        </span>
                     </div>
                 </header>
             </div>
         </div>
-        <main class="main-screen">
+        <main class="main-screen main-screen__search">
             <div class="user-component">
                 <div class="user-component__left">
                     <img
@@ -73,28 +79,65 @@
                     </div>
                 </div>
             </div>
-            <div class="vertical-icons bt-gap-far">
-                <div class="vertical-icons__icon">
+            <div class="more-money bt-gap-far">
+                <div class="more-money__current">
+                    <i class="fas fa-coins"></i>
+                    <span>12,000 NMD</span>
+                </div>
+                <div class="more-money__btn">
+                    <span>Transfer</span>
+                    <div></div>
+                    <span>Payment</span>
+                    <div></div>
+                    <span>Asset</span>
+                </div>
+            </div>
+            <div class="search-vertical-icons bt-gap-far">
+                <div class="search-vertical-icons__icon">
                     <i
                         class="far fa-calendar-check fa-lg icons-with-background"
                     ></i>
-                    <span class="vertical-icons__text">Calendar</span>
+                    <div class="search-vertical-icons__text">Calendar</div>
                 </div>
-                <div class="vertical-icons__icon">
+                <div class="search-vertical-icons__icon">
                     <i
                         class="far fa-comment-alt fa-lg icons-with-background"
                     ></i>
-                    <div class="vertical-icons__text">Mail</div>
+                    <div class="search-vertical-icons__text">Mail</div>
                 </div>
-                <div class="vertical-icons__icon">
+                <div class="search-vertical-icons__icon">
                     <i
                         class="fas fa-hand-holding-heart fa-lg icons-with-background"
                     ></i>
-                    <div class="vertical-icons__text">Send Gift</div>
+                    <div class="search-vertical-icons__text">Send Gift</div>
                 </div>
-                <div class="vertical-icons__icon">
+                <div class="search-vertical-icons__icon">
                     <i class="fas fa-gamepad fa-lg icons-with-background"></i>
-                    <div class="vertical-icons__text">Games</div>
+                    <div class="search-vertical-icons__text">Games</div>
+                </div>
+            </div>
+            <div class="search-vertical-icons bt-gap-far">
+                <div class="search-vertical-icons__icon">
+                    <i
+                        class="fas fa-gifts fa-lg icons-with-background"
+                    ></i>
+                    <div class="search-vertical-icons__text">Shop</div>
+                </div>
+                <div class="search-vertical-icons__icon">
+                    <i
+                        class="fas fa-utensils fa-lg icons-with-background"
+                    ></i>
+                    <div class="search-vertical-icons__text">Delivery</div>
+                </div>
+                <div class="search-vertical-icons__icon">
+                    <i
+                        class="fas fa-kiss-wink-heart fa-lg icons-with-background"
+                    ></i>
+                    <div class="search-vertical-icons__text">Emojis</div>
+                </div>
+                <div class="search-vertical-icons__icon">
+                    <i class="fas fa-mobile-alt fa-lg icons-with-background"></i>
+                    <div class="search-vertical-icons__text">Webtoons</div>
                 </div>
             </div>
         </main>
@@ -107,7 +150,7 @@
                 </li>
                 <li class="nav__btn">
                     <a class="nav__link" href="chats.html">
-                        <div class="nav__notification badge">1</div>
+                        <div class="nav__notification badge">4</div>
                         <i class="far fa-comment-dots fa-lg"></i
                     ></a>
                 </li>

@@ -19,3 +19,62 @@
 .align-left-setup {
     margin: 20px 20px;
 }
+
+.more-money {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 25px;
+    background-color: #e0ece4;
+    border: 0.5px solid rgba(50, 73, 92, 0.03);
+    border-radius: 10px;
+}
+.more-money__current {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15px 7px 17px;
+    border-radius: 30px;
+}
+.more-money__current > i {
+    margin-right: 7px;
+    padding-bottom: 2.5px;
+}
+.more-money__btn {
+    display: flex;
+    align-items: center;
+}
+.more-money__btn > div {
+    width: 2px;
+    height: 15px;
+    background-color: white;
+    margin: 0px 10px;
+}
+
+.search-vertical-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search-vertical-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.main-screen__search {
+    display: flex;
+    flex-direction: column;
+}
+.search-vertical-icons__text {
+    margin-top: 10px;
+}

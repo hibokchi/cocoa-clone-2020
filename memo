@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mel-On</title>
+    </head>
+    <body>
+        <section class="main-screen-left">
+            <header>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-search"></i>
+            </header>
+            <div class="artist-profile">
+                <img src="album/yorushika-profile.jpg" />
+                <h1>Yorushika</h1>
+                <h2>J-pop, Rock</h2>
+                <div class="artist-profile__btn">
+                    <div>Shuffle</div>
+                    <div>
+                        <i class="fas fa-heart"></i>
+                        <span>94,329</span>
+                    </div>
+                </div>
+            </div>
+            <main class="music-list">
+                <div class="music-list__row">
+                    <img src="album/ghost-in-a-flower.jpg" />
+                    <div class="music-list__info">
+                        <h5>Ghost In A Flower</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="music-list__row">
+                    <img src="album/plagiarism.jpg" />
+                    <div class="music-list__info">
+                        <h5>Plagiarism</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="music-list__row">
+                    <img src="album/nautilus.jpg" />
+                    <div class="music-list__info">
+                        <h5>Nautilus</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="music-list__row">
+                    <img src="album/yorushika-profile.jpg" />
+                    <div class="music-list__info">
+                        <h5>Night Journey</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="music-list__row">
+                    <img src="album/thoughtcrime.jpg" />
+                    <div class="music-list__info">
+                        <h5>Thoughtcrime</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="music-list__row">
+                    <img src="album/hole-in-the-heart.jpg" />
+                    <div class="music-list__info">
+                        <h5>Hole In The Heart</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="music-list__row">
+                    <img src="album/nautilus.jpg" />
+                    <div class="music-list__info">
+                        <h5>Rain with Cappuccino</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="music-list__row">
+                    <img src="album/plagiarism.jpg" />
+                    <div class="music-list__info">
+                        <h5>Escape</h5>
+                        <h6>Yorushika</h6>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </main>
+            <nav class="nav-bar">
+                <div class="nav-bar__info">
+                    <h3>Nautilus</h3>
+                    <h4>Yorushika</h4>
+                </div>
+                <div class="nav-bar__icon">
+                    <i class="fas fa-step-backward fa-xs"></i>
+                    <i class="fas fa-grip-lines-vertical"></i>
+                    <i class="fas fa-step-forward fa-xs"></i>
+                </div>
+            </nav>
+        </section>
+        <section class="main-screen-right">
+            <header>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-ellipsis-v"></i>
+            </header>
+            <main class="music-playing">
+                <img src="album/nautilus.jpg" />
+                <h1>Nautilus</h1>
+                <h2>Yorushika</h2>
+                <div class="playing-detail">
+                    <div class="music-progress">
+                        <div class="music-total-time">
+                            <span>0:00</span>
+                            <span>4:22</span>
+                        </div>
+                        <div class="music-bar">
+                            <div class="music-bar__back"></div>
+                            <div class="music-bar__played">
+                                <div class="music-played__bar"></div>
+                                <div class="music-played__dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="music-playing__btn">
+                    <img src="album/repeat.png" />
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-play fa-2x"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <img src="album/shuffle.png" />
+                </div>
+            </main>
+        </section>
+    </body>
+</html>

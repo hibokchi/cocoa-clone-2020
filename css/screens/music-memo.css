@@ -1,0 +1,233 @@
+
+body {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Baloo Tamma 2", cursive;
+}
+:focus {
+    outline: none;
+}
+img,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    color: #363838;
+    cursor: pointer;
+}
+.main-screen-left,
+.main-screen-right {
+    width: 350px;
+    height: 700px;
+    border-radius: 20px;
+    margin: 50px;
+    background-color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+.music-list {
+    height: 300px;
+    overflow-x: auto;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.artist-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    width: 100%;
+}
+.artist-profile img {
+    width: 90px;
+    height: 90px;
+    object-position: 50% 50%;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 0px 3px 5px #cfdbd5;
+}
+.artist-profile h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.artist-profile h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #d3ddd6;
+}
+.artist-profile__btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.artist-profile__btn div {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #e0ece4;
+    border: 1px solid #e0ece4;
+    padding: 8px 20px 5px 20px;
+    border-radius: 35px;
+}
+.artist-profile__btn div:first-child {
+    padding: 8px 30px 5px 30px;
+}
+.artist-profile__btn i {
+    color: white;
+    margin-bottom: 2.5px;
+    margin-right: 8px;
+}
+.artist-profile__btn span {
+    color: white;
+}
+.music-list__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.music-list__row:last-child {
+    margin-bottom: 10px;
+}
+.music-list__row img {
+    width: 50px;
+    height: 50px;
+    object-position: 50% 50%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.music-list__info {
+    padding-left: 20px;
+    margin-right: auto;
+}
+.music-list__info h5 {
+    font-weight: 500;
+}
+.music-list__info h6 {
+    color: #d3ddd6;
+    font-size: 15px;
+}
+.nav-bar {
+    display: flex;
+    border-radius: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 0px 35px;
+}
+.nav-bar h3 {
+    font-weight: 600;
+}
+.nav-bar h4 {
+    font-size: 15px;
+}
+.nav-bar__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.music-playing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+}
+.music-playing > img {
+    margin: 40px 0px;
+    height: 230px;
+    width: 230px;
+    box-shadow: 0px 5px 10px #cfdbd5;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.music-playing h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.music-playing h2 {
+    color: #d3ddd6;
+}
+.playing-detail {
+    width: 100%;
+}
+.music-total-time {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 0px 40px;
+    color: #d3ddd6;
+    font-size: 15px;
+}
+.music-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.music-bar__back {
+    background-color: #d3ddd6;
+    width: 270px;
+    height: 2px;
+    border-radius: 10px;
+}
+.music-bar__played {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -2px;
+    left: 40px;
+}
+.music-played__bar {
+    background-color: #363838;
+    width: 270px;
+    height: 2px;
+}
+.music-played__dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #363838;
+}
+.music-playing__btn {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    padding: 0px 45px;
+}
+.music-playing__btn img {
+    width: 15px;
+    height: 15px;
+    filter: invert(70%);
+}
+.music-list__row:nth-child(3) {
+    background-color: #e0ece4;
+    box-shadow: 0px 3px 5px #ede7e3;
+}
+.music-list__row:nth-child(3) h6 {
+    color: white;
+}

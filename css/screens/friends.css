@@ -11,7 +11,8 @@
 .friends-screen {
     margin: 0px var(--horizontal-gap);
 }
-.channel-display-info {
+.channel-display-info,
+.friend-display-info {
     border-top: var(--main-border);
     padding-top: 20px;
     margin: var(--horizontal-gap) 0px;

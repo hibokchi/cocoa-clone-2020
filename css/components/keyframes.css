@@ -28,7 +28,7 @@
     animation: bounceBadge 2.5s ease-in-out infinite;
 }
 
-@keyframes batteryfade {
+@keyframes blinkBattery {
     0% {
         opacity: 0%;
     }
@@ -41,7 +41,7 @@
 }
 
 .status-bar .fa-bolt {
-    animation: batteryfade 3s ease-in-out infinite;
+    animation: blinkBattery 5s ease-in-out infinite;
 }
 
 @keyframes loadPage {
@@ -56,5 +56,39 @@
 
 #load-form {
     animation: loadPage 1s ease-in-out forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
+}
+
+@keyframes blinkLogOut {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.screen-header__icons .fa-sign-out-alt:hover {
+    animation: blinkLogOut 1.5s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+
+@keyframes zoomSearch {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.screen-header__icons .fa-search:hover {
+    animation: zoomSearch 1.5s ease-in-out infinite;
+    animation-delay: 0.2s;
 }

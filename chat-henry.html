@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat - Henry</title>
+    </head>
+    <body class="chat-screen main-screen__100vh">
+        <div class="absolute-top-background chat-screen">
+            <div class="absolute-top chat-screen">
+                <div class="status-bar chat-screen">
+                    <div class="status-bar__column">
+                        <span>No Service</span>
+                        <!--TD Wifi icon-->
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="status-bar__column">
+                        <span>18:43</span>
+                    </div>
+                    <div class="status-bar__column">
+                        <span>11%</span>
+                        <!--TD battery icon-->
+                        <i class="fas fa-battery-quarter"></i>
+                        <!--TD Lightening icon-->
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                </div>
+                <header class="alt-screen chat-screen">
+                    <div class="alt-header__text">
+                        <span>Henry</span>
+                    </div>
+                    <div class="alt-header__icons">
+                        <div>
+                            <a href="chats.html">
+                                <i class="fas fa-angle-left fa-2x"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <i class="fas fa-search fa-lg"></i>
+                            <i class="fas fa-bars fa-lg"></i>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <main class="main-screen chat-screen chat-screen__main">
+            <span class="chat__timestamp">Sunday, August 19, 2020</span>
+            <div class="message__row">
+                <img class="message__profile" src="henry.jpg" />
+                <div class="message__content">
+                    <div class="message__from">Henry</div>
+                    <div class="message__info">
+                        <span class="message__bubble"
+                            >Bokchi could you tell me Lily's phone number?</span
+                        >
+                        <span class="message__time">08:14</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message__row message__own">
+                <div class="message__content">
+                    <div class="message__info">
+                        <span class="message__bubble">Does Lily know?</span>
+                        <span class="message__time">08:16</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message__row message__own">
+                <div class="message__content">
+                    <div class="message__info">
+                        <span class="message__bubble"
+                            >I'll ask Lily first if she's comfortable with me
+                            giving you her number</span
+                        >
+                        <span class="message__time">08:17</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message__row">
+                <img class="message__profile" src="henry.jpg" />
+                <div class="message__content">
+                    <div class="message__from">Henry</div>
+                    <div class="message__info">
+                        <span class="message__bubble">Okay :) thankz xx</span>
+                        <span class="message__time">08:21</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <form class="reply">
+            <div class="reply__column">
+                <i class="far fa-plus-square fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input
+                    type="text"
+                    name=""
+                    placeholder="please write a message"
+                />
+                <i class="far fa-smile-wink fa-lg"></i>
+                <button><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </form>
+        <div id="no-mobile">
+            <div class="no-mobile__text">Sorry Your screen is too big</div>
+            <div class="no-mobile__text">Please open on a smaller screen</div>
+        </div>
+        <script
+            src="https://kit.fontawesome.com/b3f0fff2f5.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

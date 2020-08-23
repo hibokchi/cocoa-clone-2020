@@ -36,10 +36,11 @@
     color: rgba(50, 73, 92, 0.4);
 }
 #login-form input:focus {
-    border-color: var(--yellow);
+    border-color: var(--green);
 }
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    color: #edf6f9;
+    background-color: var(--green);
     font-family: "Baloo Tamma 2", cursive;
     border-radius: 5px;
     font-size: 17px;
@@ -67,5 +68,5 @@
     top: 0px;
     width: 100vw;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: var(--green);
 }

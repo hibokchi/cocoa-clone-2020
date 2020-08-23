@@ -6,6 +6,9 @@
     align-items: center;
     cursor: pointer;
 }
+.user-component__chat:last-child {
+    margin-bottom: 70px;
+}
 .user-component__left:first-child {
     display: flex;
     align-items: center;
@@ -16,16 +19,22 @@
     justify-content: space-around;
 }
 .user-component__avatar {
+    object-fit: cover;
+    object-position: center;
     width: 70px;
     height: 70px;
     border-radius: 28px;
     margin-right: 20px;
 }
 .user-component__avatar__xl {
+    object-fit: cover;
+    object-position: center;
     width: 80px;
     height: 80px;
 }
 .user-component__avatar__sm {
+    object-fit: cover;
+    object-position: center;
     width: 60px;
     height: 60px;
     border-radius: 21px;
@@ -47,4 +56,34 @@
     margin-left: 0.5px;
     font-size: 16px;
     color: rgba(50, 73, 92, 0.5);
+}
+
+.user-component__right__music {
+    padding: 5px 20px 3px 20px;
+    border: 1px solid var(--green);
+    background-color: var(--green);
+    border-radius: 15px;
+}
+.user-component__right__music > a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.user-component__right__music div {
+    font-size: 13px;
+}
+.user-component__right__music i {
+    font-size: 10px;
+    margin-left: 10px;
+    padding-bottom: 3px;
+}
+.user-component__friend {
+    font-family: "Noto Sans KR", sans-serif;
+    margin-bottom: 5px;
+}
+.user-component__friend div {
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 3px;
 }

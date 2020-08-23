@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Chats - CocoaTalk</title>
     </head>
-    <body>
+    <body class="main-screen__100vh">
         <div class="absolute-top-background">
             <div class="absolute-top">
                 <div class="status-bar">
@@ -33,7 +33,8 @@
                     <div class="screen-header__icons">
                         <span><i class="fas fa-search fa-lg"></i></span>
                         <span><i class="fas fa-comment-medical fa-lg"></i></span>
-                        <span><i class="fas fa-music fa-lg"></i></span>
+                            <span><a href="music.html">
+                                <i class="fas fa-music fa-lg"></i></a></span>
                         <span>                            
                             <a href="settings.html">
                             <i class="fas fa-cog fa-lg"></i>
@@ -47,23 +48,87 @@
             <div class="user-component">
                 <div class="user-component__left">
                     <img
-                    src="https://raw.githubusercontent.com/hibokchi/cocoa-clone-2020/master/20180821_182728.jpg"
+                    src="lily.jpg"
                     class="user-component__avatar user-component__avatar__xl"/>
                     <div class="user-component__text">
-                            <a href="chatting.html">
-                                <h4 class="user-component__name__bold">Hibokchi</h4>
+                            <a href="chat-lily.html">
+                                <h4 class="user-component__name__bold">Lily</h4>
                                 <h6 class="user-component__subtitle">
-                                    Hiya how have u been doing?
+                                    yepp I'm okay with giving Henry my number.  Thanks for asking :)
                                 </a>
                             </h6>
                         </div>
                     </div>
-                    <div class="user-component__right user-component__text">
-                                                            <a href="chatting.html">
-                        <span class="text-with-icon info-text-lightest" >21:22</span >
+                <div class="user-component__right user-component__text">
+                                                            <a href="chat-lily.html">
+                        <span class="text-with-icon info-text-lightest" >18:41</span >
+                        </a>
+                            <div class="chats__notification badge">3</div>
+                    </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__left">
+                    <img
+                    src="sister.jpg"
+                    class="user-component__avatar user-component__avatar__xl"/>
+                    <div class="user-component__text">
+                            <a href="chat-sister.html">
+                                <h4 class="user-component__name__bold">Sister</h4>
+                                <h6 class="user-component__subtitle">
+                                    can you buy beer on your way home xxxoxoxoxo
+                                </a>
+                            </h6>
+                        </div>
+                    </div>
+                <div class="user-component__right user-component__text">
+                                                            <a href="chat-sister.html">
+                        <span class="text-with-icon info-text-lightest" >15:10</span >
+                        </a>
+                            <div class="chats__notification badge badge-none"></div>
+                    </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__left">
+                    <img
+                    src="mom.jpg"
+                    class="user-component__avatar user-component__avatar__xl"/>
+                    <div class="user-component__text">
+                            <a href="chat-mom.html">
+                                <h4 class="user-component__name__bold">Mom</h4>
+                                <h6 class="user-component__subtitle">
+                                    pretty? who?
+                                </a>
+                            </h6>
+                        </div>
+                    </div>
+                <div class="user-component__right user-component__text">
+                                                            <a href="chat-mom.html">
+                        <span class="text-with-icon info-text-lightest" >12:03</span >
+                        </a>
+                            <div class="chats__notification badge badge-none"></div>
+                    </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__left">
+                    <img
+                    src="henry.jpg"
+                    class="user-component__avatar user-component__avatar__xl"/>
+                    <div class="user-component__text">
+                            <a href="chat-henry.html">
+                                <h4 class="user-component__name__bold">Henry</h4>
+                                <h6 class="user-component__subtitle">
+                                    Okay :) thankz xx
+                                </a>
+                            </h6>
+                        </div>
+                    </div>
+                <div class="user-component__right user-component__text">
+                    <a href="chat-henry.html">
+                        <span class="text-with-icon info-text-lightest" >August 19</span >
                         </a>
                             <div class="chats__notification badge">1</div>
-                        </div>
+                    </div>
+            </div>
         </main>
         <nav class="nav">
             <ul class="nav__list">
@@ -74,7 +139,7 @@
                 </li>
                 <li class="nav__btn">
                     <a class="nav__link" href="chats.html">
-                        <div class="nav__notification badge">1</div>
+                        <div class="nav__notification badge">4</div>
                         <i class="fas fa-comment-dots fa-lg"></i
                     ></a>
                 </li>
