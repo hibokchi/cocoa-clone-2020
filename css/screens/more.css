@@ -76,5 +76,6 @@
     flex-direction: column;
 }
 .search-vertical-icons__text {
+    cursor: pointer;
     margin-top: 10px;
 }
