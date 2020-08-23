@@ -92,3 +92,19 @@
     animation: zoomSearch 1.5s ease-in-out infinite;
     animation-delay: 0.2s;
 }
+
+@keyframes blinkMediaQ {
+    0% {
+        color: white;
+    }
+    50% {
+        color: var(--green);
+    }
+    100% {
+        color: white;
+    }
+}
+
+#no-mobile {
+    animation: blinkMediaQ 5s ease-in-out infinite;
+}
